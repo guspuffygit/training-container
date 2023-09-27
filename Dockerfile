@@ -9,7 +9,7 @@ RUN apt-get update && \
     git \
     curl \
     jq \
-    nano \
+    nano && \
     pip install -r requirements.txt
 
 RUN git clone https://github.com/OpenAccess-AI-Collective/axolotl.git && \

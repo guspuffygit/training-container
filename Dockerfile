@@ -1,4 +1,4 @@
-FROM thebloke/cuda11.8.0-ubuntu22.04-oneclick:latest
+FROM nvidia/cuda:11.8.0-cudnn8-runtime-ubuntu22.04
 
 COPY . .
 
